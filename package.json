@@ -1,0 +1,64 @@
+{
+  "_args": [
+    [
+      "git+https://github.com/agilityworks-uk/react-native-popover.git#release/2.2",
+      "/Users/boblennon/Project/StockbookApp"
+    ]
+  ],
+  "_from": "git+https://github.com/agilityworks-uk/react-native-popover.git#release/2.2",
+  "_id": "@taw/react-native-popover@git+https://github.com/agilityworks-uk/react-native-popover.git#eca65b548829fbc7e66ba2024da74b99ab7e7167",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/@taw/react-native-popover",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/agilityworks-uk/react-native-popover.git#release/2.2",
+    "rawSpec": "git+https://github.com/agilityworks-uk/react-native-popover.git#release/2.2",
+    "saveSpec": "git+https://github.com/agilityworks-uk/react-native-popover.git#release/2.2",
+    "fetchSpec": "https://github.com/agilityworks-uk/react-native-popover.git",
+    "gitCommittish": "release/2.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/agilityworks-uk/react-native-popover.git#eca65b548829fbc7e66ba2024da74b99ab7e7167",
+  "_spec": "git+https://github.com/agilityworks-uk/react-native-popover.git#release/2.2",
+  "_where": "/Users/boblennon/Project/StockbookApp",
+  "author": {
+    "name": "Jean Regisser",
+    "email": "jean.regisser@gmail.com",
+    "url": "https://github.com/jeanregisser"
+  },
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "description": "A <Popover /> component for react-native",
+  "devDependencies": {
+    "json": "^9.0.3",
+    "npm-release": "^1.0.0",
+    "react-native": "0.29.0"
+  },
+  "files": [
+    "Popover.js"
+  ],
+  "keywords": [
+    "react-component",
+    "react-native",
+    "ios",
+    "ui",
+    "popover",
+    "modal"
+  ],
+  "license": "MIT",
+  "main": "Popover.js",
+  "name": "@taw/react-native-popover",
+  "private": true,
+  "scripts": {
+    "ci-pre-publish": "json -I -f package.json -e 'this.private=false'",
+    "publish-tag": "npm dist-tag add $npm_package_name@$npm_package_version",
+    "release": "npm-release",
+    "start": "node_modules/react-native/packager/packager.sh"
+  },
+  "version": "2.2.0"
+}
